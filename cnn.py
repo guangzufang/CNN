@@ -26,7 +26,7 @@ def plot_images_labels_prediction(images,  # 图像列表
         ax.set_yticks([])
         index += 1
     plt.show()
-
+#搭建网络模型
 class Net(torch.nn.Module):
     def __init__(self):
         super(Net, self).__init__()
